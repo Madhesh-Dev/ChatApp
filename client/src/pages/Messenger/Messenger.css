@@ -1,0 +1,99 @@
+.Messenger{
+    display: flex;
+    height: calc(100vh-70px);
+}
+
+
+
+.SearchFriends
+{
+    flex: 3.5;
+}
+
+.DisplayChat
+{
+    flex: 5.5;
+    height: 100%;
+    
+    
+}
+.Status
+{
+    flex: 3;
+}
+
+.SearchFriendsWrapper,.StatusWrapper{
+    height: 100%;
+    padding: 10px;
+    
+}
+.DisplayChatWrapper
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+    justify-content: space-between;
+    position: relative;
+   
+}
+
+
+.SearchFriendsInput
+{
+    border: none;
+    width: 90%;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(207, 204, 204);
+
+}
+.SearchFriendsInput:focus
+{
+    outline: rgb(207, 204, 204) solid 1px;
+    border-radius: 5px;
+}
+
+
+.noChatSpan
+{
+    position: absolute;
+    font-size: 50px;
+    top:50%;
+    color:gray;
+    
+
+}
+.chatBoxTop
+{
+  height: 75vh;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+.chatBoxBottom
+{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.chatTextArea
+{
+    margin:10px;
+    width: 70%;
+    height: 70px;
+}
+
+.chatSubmitButton
+{
+    background-color: teal;
+    border: none;
+    color:white;
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 7px;
+}
